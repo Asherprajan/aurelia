@@ -22,21 +22,25 @@ export default function AboutSection() {
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
           
-          {/* Left Column: Logo */}
+          {/* Left Column: Video */}
           <div className="w-full lg:w-5/12 flex justify-center lg:justify-end">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="relative w-64 h-64 md:w-80 md:h-80"
+              className="relative w-full max-w-[360px] md:max-w-[400px] mx-auto lg:mx-0 rounded-2xl"
             >
-              <Image 
-                src="/about.png" 
-                alt="Aurelia Events by Aleena Logo" 
-                fill 
-                className="object-contain" 
-              />
+              <div className="relative w-full aspect-square rounded-2xl overflow-hidden">
+                <video 
+                  src="/about.mp4" 
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                  className="object-cover w-full h-full scale-[1.15]" 
+                />
+              </div>
             </motion.div>
           </div>
 

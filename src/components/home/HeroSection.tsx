@@ -5,7 +5,7 @@ import { Mail, MessageCircle } from "lucide-react";
 import Image from "next/image";
 
 export default function HeroSection() {
-  const phoneNumber = "919995213345";
+  const phoneNumber = "916282211630";
   const message = encodeURIComponent(
     "Hello! I am interested in your luxury wedding planning services."
   );

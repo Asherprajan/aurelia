@@ -23,6 +23,31 @@ const greatVibes = Great_Vibes({
 export const metadata: Metadata = {
   title: "Aurelia Events by Aleena | Luxury Wedding Planner",
   description: "From the first 'yes' to forever. Turning Your Dream Wedding Into Timeless Memories.",
+  icons: {
+    icon: "/logo.png",
+  },
+  openGraph: {
+    title: "Aurelia Events by Aleena",
+    description: "Turning Your Dream Wedding Into Timeless Memories.",
+    url: "https://aureliaevents.com", // Adjust domain when known
+    siteName: "Aurelia Events",
+    images: [
+      {
+        url: "/about.png",
+        width: 1200,
+        height: 630,
+        alt: "Aurelia Events by Aleena",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Aurelia Events by Aleena",
+    description: "Turning Your Dream Wedding Into Timeless Memories.",
+    images: ["/about.png"],
+  },
 };
 
 export default function RootLayout({

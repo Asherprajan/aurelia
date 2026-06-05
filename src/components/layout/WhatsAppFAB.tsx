@@ -3,7 +3,7 @@
 import { MessageCircle } from "lucide-react";
 
 export default function WhatsAppFAB() {
-  const phoneNumber = "919995213345"; // From the mockup footer
+  const phoneNumber = "916282211630";
   const message = encodeURIComponent(
     "Hello! I am interested in your luxury wedding planning services."
   );
