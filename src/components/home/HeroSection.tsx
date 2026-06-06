@@ -47,6 +47,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <h1 className="font-playfair font-medium text-4xl md:text-5xl lg:text-[4rem] text-white max-w-3xl leading-[1.1] mb-8 drop-shadow-lg">
+            <span className="block font-poppins text-[13px] md:text-sm lg:text-base text-[#BFA06C] uppercase tracking-[0.25em] mb-6 font-semibold">Luxury Wedding Planner & Event Designer</span>
             Turning Your Dream <br />Wedding Into <br />Timeless Memories
           </h1>
         </motion.div>

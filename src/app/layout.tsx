@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.aureliaeventsbyaleena.com"),
   title: "Aurelia Events by Aleena | Luxury Wedding Planner",
   description: "From the first 'yes' to forever. Turning Your Dream Wedding Into Timeless Memories.",
-  keywords: ["wedding planner", "luxury wedding planner", "Aurelia Events", "Aleena", "event management", "destination weddings"],
+  keywords: ["wedding planner in Kerala", "Kerala wedding planner", "luxury wedding planner in Kerala", "Aurelia Events", "Aleena", "event management", "destination weddings in Kerala"],
   authors: [{ name: "Aleena" }],
   icons: {
     icon: "/logo.png",
@@ -65,9 +65,15 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "Aurelia Events by Aleena",
-    description: "Turning Your Dream Wedding Into Timeless Memories. Luxury wedding planning services.",
+    description: "Turning Your Dream Wedding Into Timeless Memories. Luxury wedding planning services in Kerala.",
     url: "https://www.aureliaeventsbyaleena.com",
     telephone: "+916282211630",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Kerala",
+      addressRegion: "KL",
+      addressCountry: "IN"
+    },
     logo: "https://www.aureliaeventsbyaleena.com/logo.png",
     image: "https://www.aureliaeventsbyaleena.com/about.png",
     sameAs: [
