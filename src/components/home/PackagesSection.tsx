@@ -8,43 +8,55 @@ const packages = [
   {
     name: "Classic Elegance",
     subtitle: "PACKAGE",
-    price: "1,50,000",
     features: [
-      "Planning Consultation",
+      "Wedding Planning Consultation",
       "Venue Coordination",
-      "Basic Décor",
-      "Photography",
+      "Basic Stage Décor & Floral Setup",
+      "Bridal Entry Coordinations",
+      "Photography & Videography",
       "Guest Management",
-      "Timeline Management",
+      "Makeup Artist Coordination",
+      "Wedding Day Timeline Management",
+      "Standard Sound & Lighting",
+      "Honeymoon Assistance"
     ],
     featured: false,
   },
   {
-    name: "Premium Signature",
+    name: "Royal Standard",
     subtitle: "PACKAGE",
     badge: "MOST POPULAR",
-    price: "2,50,000",
     features: [
-      "Everything in Classic",
-      "Luxury Floral Design",
-      "Bridal Entry Concept",
-      "Premium Photography",
-      "Entertainment Coordination",
-      "Custom Styling",
+      "Complete wedding planning & coordination",
+      "Theme based decor",
+      "Floral arrangements & entrance decor",
+      "Bridal and groom entry concepts",
+      "Premium photography & cinematography",
+      "Pre-wedding shoot coordination",
+      "Entertainment & DJ coordination",
+      "Invitations & guest assistance",
+      "Catering coordination",
+      "Luxury car arrangements",
+      "Honeymoon package (Premium domestic)"
     ],
     featured: true,
   },
   {
-    name: "Royal Destination",
+    name: "Premium Luxe",
     subtitle: "PACKAGE",
-    price: "4,00,000",
     features: [
-      "End-to-End Planning",
-      "Destination Management",
-      "Accommodation Coordination",
-      "Luxury Décor",
-      "VIP Guest Handling",
-      "Premium Production",
+      "End-to-end luxury wedding planning",
+      "Personalised wedding theme & styling",
+      "Premium floral and designer decor",
+      "Destination wedding assistance",
+      "Luxury bridal & groom stay concepts",
+      "Cinematic wedding film",
+      "Exclusive entertainment arrangements",
+      "Couple choreography",
+      "Premium catering",
+      "Luxury transportation & accommodation",
+      "Personalised wedding gifts & hampers",
+      "Honeymoon Package (International trip)"
     ],
     featured: false,
   },
@@ -137,13 +149,9 @@ export default function PackagesSection() {
               </div>
 
               <div className="mt-12 text-center relative z-10">
-                <div className="flex items-start justify-center text-[#BFA06C] font-playfair">
-                  <span className="text-lg mt-1 mr-1">₹</span>
-                  <span className="text-4xl">{pkg.price}</span>
-                </div>
-                <span className="font-poppins text-[10px] text-[#111111]/50 tracking-[0.2em] uppercase block mt-2">
-                  ONWARDS
-                </span>
+                <a href="#contact" className="inline-block border border-[#BFA06C] text-[#BFA06C] hover:bg-[#BFA06C] hover:text-white transition-colors px-6 py-3 font-poppins text-xs font-semibold tracking-widest uppercase rounded-sm">
+                  Contact Us
+                </a>
               </div>
             </motion.div>
           ))}

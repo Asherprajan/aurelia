@@ -28,28 +28,6 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
-      {/* Decorative floral elements on left and right corners */}
-      <div className="absolute bottom-0 left-0 opacity-60 pointer-events-none z-10 transform -translate-x-1/4 translate-y-1/4">
-        <div className="relative w-[300px] h-[400px]">
-          <Image 
-            src="/botanical_trace.svg" 
-            alt="" 
-            fill 
-            className="object-contain object-bottom left-0"
-          />
-        </div>
-      </div>
-      
-      <div className="absolute bottom-0 right-0 opacity-60 pointer-events-none z-10 transform translate-x-1/4 translate-y-1/4">
-        <div className="relative w-[300px] h-[400px]">
-          <Image 
-            src="/botanical_trace.svg" 
-            alt="" 
-            fill 
-            className="object-contain object-bottom right-0 scale-x-[-1]"
-          />
-        </div>
-      </div>
 
       {/* Content */}
       <div className="relative z-20 container mx-auto px-6 md:px-12 md:pl-24 text-left flex flex-col items-start w-full">
