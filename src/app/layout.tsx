@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aurelia Events by Aleena",
     description: "Turning Your Dream Wedding Into Timeless Memories.",
-    url: "https://aureliaevents.com", // Adjust domain when known
+    url: "https://aureliaeventsbyaleena.vercel.app",
     siteName: "Aurelia Events",
     images: [
       {
