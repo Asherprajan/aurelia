@@ -8,8 +8,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: baseUrl,
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 1,
+      priority: 0.9,
     },
-    // Add additional routes here if you add separate pages for services, portfolio, etc.
+    {
+      url: `${baseUrl}/plan-my-wedding`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 1.0,
+    },
   ];
 }

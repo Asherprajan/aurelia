@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.aureliaeventsbyaleena.com"),
   title: "Aurelia Events by Aleena | Luxury Wedding Planner",
   description: "From the first 'yes' to forever. Turning Your Dream Wedding Into Timeless Memories.",
-  keywords: ["wedding planner in Kerala", "Kerala wedding planner", "luxury wedding planner in Kerala", "Aurelia Events", "Aleena", "event management", "destination weddings in Kerala"],
+  keywords: ["wedding expense calculator", "Kerala wedding expense calculator", "wedding budget calculator Kerala", "wedding planner in Kerala", "Kerala wedding planner", "luxury wedding planner in Kerala", "Aurelia Events", "Aleena", "event management", "destination weddings in Kerala"],
   authors: [{ name: "Aleena" }],
   icons: {
     icon: "/logo.png",
